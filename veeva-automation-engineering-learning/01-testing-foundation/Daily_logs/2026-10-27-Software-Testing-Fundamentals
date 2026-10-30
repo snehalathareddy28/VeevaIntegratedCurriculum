@@ -1,0 +1,81 @@
+# Daily Learning Log — 27 October 2026
+
+## Topic: SDLC, QA, SIT, UAT, Agile and Waterfall
+
+### 1. Learning Objectives
+- Understand the software development lifecycle.
+- Learn the role of QA in software development.
+- Differentiate SIT and UAT.
+- Understand Agile and Waterfall methodologies.
+- Learn how testing fits into the development process.
+
+### 2. SDLC — Software Development Life Cycle
+
+SDLC is a structured process used to develop and maintain software.
+
+**Major phases:**
+
+1. Requirement Analysis — Understand business and user needs.
+2. Planning — Estimate resources, time, and scope.
+3. Design — Prepare system architecture and design.
+4. Development — Write and implement code.
+5. Testing — Identify defects and verify requirements.
+6. Deployment — Release the application.
+7. Maintenance — Fix issues and improve the application.
+
+### 3. QA — Quality Assurance
+
+QA focuses on ensuring that development processes and software products meet quality expectations.
+
+Important concepts:
+- Verification: Are we building the product correctly?
+- Validation: Are we building the correct product?
+- Defect prevention and process improvement.
+- Test planning and test documentation.
+
+### 4. SIT vs UAT
+
+| Aspect | SIT (System Integration Testing) | UAT (User Acceptance Testing) |
+|---|---|---|
+| Purpose | Check that integrated components work together correctly. | Confirm that the application meets business requirements and user needs. |
+| Usually performed by | Testing or QA teams. | Business users or client representatives. |
+| Main focus | Integration, communication, and data flow between systems. | Business workflows and acceptance of the finished application. |
+
+**Example: E-commerce application**
+
+- **SIT:** Verify that the order service communicates correctly with the payment service.
+- **UAT:** Verify that a customer can place an order and receive confirmation.
+
+### 5. Agile vs Waterfall
+
+**Agile**
+- Iterative and incremental development.
+- Work is divided into sprints.
+- Frequent feedback and collaboration.
+- Testing happens continuously.
+
+**Waterfall**
+- Sequential development approach.
+- Each phase is completed before the next phase.
+- Requirements and planning are generally established earlier.
+- Changes later in the process can be more difficult.
+
+### 6. Real-World Application
+
+For a student management system:
+- Requirements define registration and search features.
+- Developers implement those features.
+- QA tests registration and search functionality.
+- SIT checks integration between modules.
+- UAT confirms that the system meets the institution's requirements.
+
+### 7. Key Takeaways
+- SDLC provides structure to software development.
+- QA contributes to product quality throughout development.
+- SIT focuses on integration.
+- UAT focuses on business acceptance.
+- Agile supports iterative delivery.
+- Waterfall follows sequential phases.
+
+### 8. Next Learning Goal
+Understand manual and automated testing and explore reusable automation framework design.

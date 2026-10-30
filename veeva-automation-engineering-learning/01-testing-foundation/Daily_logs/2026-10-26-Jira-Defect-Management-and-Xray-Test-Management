@@ -1,0 +1,87 @@
+# Daily Learning Log — 26 October 2026
+
+## Topic: Jira Defect Management and Xray Test Management
+
+### 1. Learning Objectives
+- Understand the defect management lifecycle.
+- Learn how QA engineers report and track bugs.
+- Understand bug priority and assignment.
+- Explore Jira Query Language (JQL).
+- Understand test management using Xray.
+
+### 2. Concepts Learned
+
+**Defect Management Lifecycle**
+
+A typical defect lifecycle:
+
+Open → In Progress → Fixed → Retest → Closed
+
+If the issue still exists after retesting, it may be reopened.
+
+**Bug Priority vs Severity**
+
+- Severity: How seriously the defect affects the application.
+- Priority: How urgently the defect should be fixed.
+
+Example: A payment failure may have high severity and high priority.
+
+**JQL — Jira Query Language**
+
+JQL helps search and filter Jira work items.
+
+Example:
+
+```jql
+project = StudentManagement
+AND issuetype = Bug
+ORDER BY priority DESC
+```
+
+This retrieves bugs in the StudentManagement project, ordered by priority.
+
+### 3. Xray Test Management
+
+Xray is a test management solution integrated with Jira.
+
+Important components:
+
+1) Test : Defines what needs to be tested. 
+2) Precondition : Conditions required before testing.
+3) Test Set : Groups related tests.
+4) Test Plan : Organizes testing scope.
+5) Test Execution : Records actual test runs.
+
+### 4. Practical Activities
+- Practised creating bug tickets.
+- Explored bug priority and status updates.
+- Learned bug assignment and linking.
+- Created and explored Jira filters.
+- Practised JQL queries.
+- Explored Xray Test, Precondition, Test Set, Test Plan, and Test Execution.
+- Understood how actual test results are recorded.
+
+### 5. Real-World Example
+
+For a student registration application:
+
+Test Scenario: Verify registration with valid details.
+
+Test Steps:
+1. Open the registration page.
+2. Enter valid student details.
+3. Click Submit.
+4. Verify the success message.
+
+Expected Result: Student registration should complete successfully.
+
+Actual Result: The observed application behaviour is recorded during execution.
+
+### 6. Key Takeaways
+- A bug report should clearly explain the issue and reproduction steps.
+- Priority and severity represent different concepts.
+- JQL helps QA engineers find relevant work items.
+- Xray connects test cases, plans, executions, and results.
+
+### 7. Next Learning Goal
+Strengthen testing fundamentals and understand the complete software testing lifecycle.
