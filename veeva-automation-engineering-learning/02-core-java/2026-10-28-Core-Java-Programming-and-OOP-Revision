@@ -1,0 +1,77 @@
+# 28 October 2026 – Core Java Programming and OOP Revision
+
+## Learning Objective
+Revised Java programming fundamentals and strengthened understanding of Object-Oriented Programming principles through practical examples.
+
+## Topics Revised
+
+### 1. Methods
+- Method declaration and method calling.
+- Parameters and arguments.
+- Return types and void methods.
+- Method overloading.
+- Understanding reusable methods.
+
+### 2. Control Flow
+- if, if-else, and nested if statements.
+- switch statements.
+- break and continue statements.
+- Decision-making through conditional logic.
+
+### 3. Loops
+- for loop.
+- while loop.
+- do-while loop.
+- Nested loops.
+- Practical iteration and condition checking.
+
+### 4. Arrays
+- One-dimensional arrays.
+- Array declaration and initialization.
+- Accessing elements using indexes.
+- Traversing arrays using loops.
+- Basic searching and updating operations.
+
+### 5. Debugging
+- Identifying compilation errors and runtime errors.
+- Understanding error messages.
+- Using IntelliJ debugging features.
+- Practising breakpoints and step-by-step execution.
+
+### 6. Object-Oriented Programming Principles
+
+**Encapsulation**
+- Bundling data and methods inside a class.
+- Using private variables and public getter/setter methods.
+- Understanding data protection.
+
+**Inheritance**
+- Reusing properties and methods from parent classes.
+- Understanding `extends`, `super`, and method inheritance.
+- Understanding code reusability.
+
+**Polymorphism**
+- Understanding method overloading and method overriding.
+- Compile-time and runtime polymorphism.
+- Using a common parent reference for different child objects.
+
+**Abstraction**
+- Hiding implementation details and exposing essential behaviour.
+- Understanding abstract classes and abstract methods.
+- Understanding interfaces and their role in abstraction.
+
+## Practical Work
+- Revised Java methods, conditional statements, loops, and arrays.
+- Practised breaking down problems into reusable methods.
+- Reviewed OOP examples using real-world entities.
+- Strengthened understanding of how OOP principles support modular and maintainable applications.
+- Used IntelliJ IDEA to execute and debug Java programs.
+
+## Key Takeaways
+- Improved understanding of Java program flow and execution.
+- Reinforced all four OOP principles.
+- Understood how object-oriented design improves code organization, reusability, and maintainability.
+- Strengthened the foundation required for Java-based automation frameworks.
+
+## Outcome
+Completed revision of core Java programming concepts and OOP fundamentals, preparing for Collections, Lambda Expressions, Streams, Exception Handling, and Java I/O.
