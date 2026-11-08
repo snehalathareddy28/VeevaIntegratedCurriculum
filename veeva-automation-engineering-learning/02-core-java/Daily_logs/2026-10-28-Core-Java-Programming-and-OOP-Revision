@@ -1,0 +1,52 @@
+# Core Java Programming Constructs & OOP Revision
+
+**Date:** 28 October 2026  
+**Focus:** Methods, arrays, loops, debugging, and object-oriented programming fundamentals
+
+## Objective
+Strengthen problem-solving and program decomposition by revisiting reusable methods, array processing, iterative logic, and object-oriented structure.
+
+## Technical Areas Reviewed
+- Method declaration, parameters, return types, and method calls.
+- Method overloading and code reusability.
+- Array declaration, initialization, traversal, and manipulation.
+- `for`, `while`, and `do-while` loops.
+- Nested loops and conditional logic.
+- Debugging through execution flow and variable inspection.
+- Classes, objects, constructors, and basic OOP principles.
+
+## Practical Application
+Considered how a marks-processing program can be divided into reusable methods rather than placing all logic inside `main()`.
+
+Example — calculating an average:
+
+```java
+public class MarksAnalyzer {
+
+    static double calculateAverage(int[] marks) {
+        int total = 0;
+
+        for (int mark : marks) {
+            total += mark;
+        }
+
+        return (double) total / marks.length;
+    }
+
+    public static void main(String[] args) {
+        int[] marks = {85, 90, 78, 88, 92};
+
+        System.out.println(
+            "Average: " + calculateAverage(marks)
+        );
+    }
+}
+```
+
+## Engineering Takeaways
+- Methods reduce duplication and improve maintainability.
+- Arrays support structured storage and sequential data processing.
+- Appropriate loop selection improves code clarity.
+- Debugging helps identify logical errors and trace program execution.
+
+**Outcome:** Reinforced modular programming and problem-solving techniques that support larger Java applications.

@@ -1,0 +1,69 @@
+# Daily Learning Log — 25 October 2026
+
+## Topic: Jira Fundamentals and Project Management
+
+### 1. Learning Objectives
+- Understand Jira and its role in software development.
+- Learn how Agile teams organize and track their work.
+- Understand Jira work item types and their relationships.
+- Practise creating and managing project requirements.
+
+### 2. Concepts Learned
+
+**What is Jira?**
+
+Jira is a project management and issue-tracking tool developed by Atlassian. It helps software teams plan tasks, manage requirements, report defects, assign responsibilities, and track project progress.
+
+**Understanding Jira Work Items**
+
+1. Epic
+- Purpose: Represents a large feature or business requirement.
+- Example: Student Management.
+2. Story
+- Purpose: Represents a requirement from the user's perspective.
+- Example: Register a new student.
+3. Task
+- Purpose: Represents a specific activity that needs to be completed.
+- Example: Design the student registration form.
+4. Bug
+- Purpose: Represents an error or unexpected behaviour in the application.
+- Example: Application accepts an invalid email address.
+5. Sub-task
+- Purpose: Represents a smaller activity created under a parent work item.
+- Example: Implement email validation.
+
+### 3. Understanding the Relationship
+
+Epic → Story → Task / Sub-task
+
+Example:
+
+Epic: Student Registration Management
+
+Story: As an administrator, I want to register students so that their details can be maintained.
+
+Tasks:
+- Design the registration form.
+- Implement input validation.
+- Save student details.
+
+### 4. Practical Activities
+- Explored the Jira Cloud interface.
+- Created and explored a Jira project.
+- Practised creating Epics, Stories, and Tasks.
+- Learned how to link related work items.
+- Understood how project requirements are organized.
+
+### 5. Real-World Application
+
+In a real software company, a product manager may define a large feature as an Epic. Developers and QA engineers then work with smaller Stories and Tasks. Jira helps everyone track ownership and progress.
+
+### 6. Key Takeaways
+- Jira provides visibility into project activities.
+- Epics organize large requirements.
+- Stories represent user requirements.
+- Tasks represent implementation activities.
+- Bugs track unexpected application behaviour.
+
+### 7. Next Learning Goal
+Explore Jira bug management, workflows, priorities, JQL, and dashboards.

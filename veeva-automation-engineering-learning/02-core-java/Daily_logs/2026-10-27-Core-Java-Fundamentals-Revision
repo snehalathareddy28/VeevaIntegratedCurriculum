@@ -1,0 +1,42 @@
+# 27 October 2026 – Core Java Fundamentals Revision
+
+## Learning Objective
+Revised core Java fundamentals and strengthened understanding of Java program structure, execution, data types, classes, objects, and packages.
+
+## Topics Revised
+
+### 1. Java Fundamentals
+- Revised Java features and platform independence.
+- Understood the roles of JDK, JRE, and JVM.
+- Reviewed Java compilation and bytecode execution.
+- Revised the structure of a Java program and the `main()` method.
+
+### 2. Data Types and Variables
+- Revised all eight primitive data types: byte, short, int, long, float, double, char, and boolean.
+- Reviewed non-primitive data types such as String, arrays, and classes.
+- Practised variable declaration, initialization, and type usage.
+
+### 3. Classes and Objects
+- Revised classes as blueprints for creating objects.
+- Practised object creation using the `new` keyword.
+- Accessed object properties and methods.
+- Reviewed constructors and object references.
+
+### 4. Packages
+- Revised how Java packages organize related classes.
+- Practised importing classes from different packages.
+- Reviewed basic project organization using separate packages.
+
+## Practical Work
+- Created and executed Java programs using IntelliJ IDEA.
+- Practised declaring variables with different data types.
+- Created Student objects and accessed their properties.
+- Organized Java classes into separate packages.
+
+## Key Takeaways
+- Strengthened understanding of Java program execution.
+- Improved clarity on the relationship between classes and objects.
+- Reinforced the importance of packages for maintainable applications.
+
+## Outcome
+Completed revision of Java fundamentals through hands-on coding and prepared for advanced Core Java concepts.
