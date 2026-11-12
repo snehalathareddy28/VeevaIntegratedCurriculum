@@ -12,15 +12,16 @@ public class LocatorsDemo {
         driver.manage().window().maximize();
 
         //name locator
-        //driver.findElement(By.name("search")).sendKeys("Mac");
+        driver.findElement(By.name("search")).sendKeys("Mac");
 
         //id locator
-        //boolean logodispalystatus = driver.findElement(By.id("logo")).isDisplayed();
-        //System.out.println(logodispalystatus);
+        boolean logodispalystatus = driver.findElement(By.id("logo")).isDisplayed();
+
+        System.out.println(logodispalystatus);
 
         //linktext & partialLinkText
-        //driver.findElement(By.linkText("Tablets")).click();
-        //driver.findElement(By.partialLinkText("Tab")).click();
+        driver.findElement(By.linkText("Tablets")).click();
+        driver.findElement(By.partialLinkText("Tab")).click();
 
         //tagName and Class --> this both are used for locating group of web element nto for specific web element
         //EX: we need to measure a no of links elements in a webpage
