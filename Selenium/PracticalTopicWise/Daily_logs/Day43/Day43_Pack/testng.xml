@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org">
+<suite name="Suite">
+    <test name="Test1">
+        <classes>
+            <class name="PracticalTopicWise.Daily_logs.Day43.Day43_Pack.C1"/>
+            <class name="PracticalTopicWise.Daily_logs.Day43.Day43_Pack.C2"/>
+            <class name="PracticalTopicWise.Daily_logs.Day43.Day43_Pack.C3"/>
+        </classes>
+    </test>
+
+    <test name="Test2">
+        <classes>
+            <class name="PracticalTopicWise.Daily_logs.Day43.Day43_Pack.C1"/>
+            <class name="PracticalTopicWise.Daily_logs.Day43.Day43_Pack.C2"/>
+            <class name="PracticalTopicWise.Daily_logs.Day43.Day43_Pack.C3"/>
+        </classes>
+    </test>
+
+</suite>

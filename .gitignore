@@ -1,7 +1,7 @@
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+!JavaTasks/ShopFlow_Automation/src/main/**/target/
+!JavaTasks/ShopFlow_Automation/src/test/**/target/
 .kotlin
 
 ### IntelliJ IDEA ###
@@ -29,8 +29,8 @@ target/
 /nbdist/
 /.nb-gradle/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+!JavaTasks/ShopFlow_Automation/src/main/**/build/
+!JavaTasks/ShopFlow_Automation/src/test/**/build/
 
 ### VS Code ###
 .vscode/

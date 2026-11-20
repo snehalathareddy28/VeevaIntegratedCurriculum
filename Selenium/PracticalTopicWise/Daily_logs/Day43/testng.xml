@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org">
+<suite name="Suite">
+    <test name="Test1">
+        <classes>
+            <class name="PracticalTopicWise.Daily_logs.Day43.AllAnnotations"/>
+        </classes>
+    </test>
+</suite>

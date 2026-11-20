@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org">
+<suite name="Selenium Suite">
+    <test name="Selenium Tests">
+        <classes>
+            <!-- Replace with your actual class name inside the Selenium folder -->
+            <class name="PracticalTopicWise.Daily_logs.Day42Testng.TestngAnnotations"/>
+        </classes>
+    </test>
+</suite>
