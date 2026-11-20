@@ -1,0 +1,25 @@
+
+public class ConfigurationManager {
+
+    // 1. Static instance variable
+    private static ConfigurationManager instance;
+
+    // 2. Private constructor
+    private ConfigurationManager() {
+        System.out.println("Configuration Manager Created");
+    }
+
+    // 3. Public method to access the instance
+    public static ConfigurationManager getInstance() {
+
+        if (instance == null) {
+            instance = new ConfigurationManager();
+        }
+
+        return instance;
+    }
+
+    public void displayMessage() {
+        System.out.println("Configuration Manager is running");
+    }
+}

@@ -1,0 +1,28 @@
+
+public class BuilderTest {
+
+    public static void main(String[] args) {
+
+        // Chrome configuration
+        TestConfig chromeConfig = new TestConfig.Builder()
+                .browser("Chrome")
+                .url("https://www.saucedemo.com/")
+                .timeout(10)
+                .headless(false)
+                .build();
+
+        // Firefox configuration
+        TestConfig firefoxConfig = new TestConfig.Builder()
+                .browser("Firefox")
+                .url("https://www.saucedemo.com/")
+                .timeout(20)
+                .headless(true)
+                .build();
+
+        System.out.println("CHROME CONFIGURATION");
+        chromeConfig.displayConfig();
+
+        System.out.println("FIREFOX CONFIGURATION");
+        firefoxConfig.displayConfig();
+    }
+}

@@ -1,0 +1,71 @@
+
+public class TestConfig {
+
+    private final String browser;
+    private final String url;
+    private final int timeout;
+    private final boolean headless;
+
+    private TestConfig(Builder builder) {
+        this.browser = builder.browser;
+        this.url = builder.url;
+        this.timeout = builder.timeout;
+        this.headless = builder.headless;
+    }
+
+    public void displayConfig() {
+        System.out.println("Browser: " + browser);
+        System.out.println("URL: " + url);
+        System.out.println("Timeout: " + timeout);
+        System.out.println("Headless: " + headless);
+        System.out.println("-------------------------");
+    }
+
+    public static class Builder {
+
+        private String browser;
+        private String url;
+        private int timeout;
+        private boolean headless;
+
+        public Builder browser(String browser) {
+            this.browser = browser;
+            return this;
+        }
+
+        public Builder url(String url) {
+            this.url = url;
+            return this;
+        }
+
+        public Builder timeout(int timeout) {
+            this.timeout = timeout;
+            return this;
+        }
+
+        public Builder headless(boolean headless) {
+            this.headless = headless;
+            return this;
+        }
+
+        public TestConfig build() {
+
+            if (browser == null || browser.isBlank()) {
+                throw new IllegalArgumentException(
+                        "Browser is required");
+            }
+
+            if (url == null || url.isBlank()) {
+                throw new IllegalArgumentException(
+                        "URL is required");
+            }
+
+            if (timeout <= 0) {
+                throw new IllegalArgumentException(
+                        "Timeout must be greater than zero");
+            }
+
+            return new TestConfig(this);
+        }
+    }
+}

@@ -1,0 +1,20 @@
+
+public class SingletonTest {
+
+    public static void main(String[] args) {
+
+        ConfigurationManager obj1 =
+                ConfigurationManager.getInstance();
+
+        ConfigurationManager obj2 =
+                ConfigurationManager.getInstance();
+
+        ConfigurationManager obj3 =
+                ConfigurationManager.getInstance();
+
+        obj1.displayMessage();
+
+        System.out.println("Same instance: " + (obj1 == obj2));
+        System.out.println("Same instance: " + (obj2 == obj3));
+    }
+}

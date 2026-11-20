@@ -1,0 +1,42 @@
+
+public class ConfigurationManagerTest {
+
+    public static void main(String[] args) {
+
+        // Get Singleton instance
+        ConfigurationManager manager1 =
+                ConfigurationManager.getInstance();
+
+        ConfigurationManager manager2 =
+                ConfigurationManager.getInstance();
+
+        System.out.println("SINGLETON VERIFICATION");
+
+        System.out.println(
+                "Same instance: " + (manager1 == manager2));
+
+        // Read values from properties file
+        System.out.println("\nDEFAULT CONFIGURATION");
+
+        TestConfig defaultConfig = new TestConfig.Builder()
+                .browser(manager1.getBrowser())
+                .url(manager1.getUrl())
+                .timeout(manager1.getTimeout())
+                .headless(manager1.isHeadless())
+                .build();
+
+        defaultConfig.displayConfig();
+
+        // Create another configuration
+        System.out.println("CUSTOM CONFIGURATION");
+
+        TestConfig customConfig = new TestConfig.Builder()
+                .browser("Firefox")
+                .url("https://opensource-demo.orangehrmlive.com/")
+                .timeout(20)
+                .headless(true)
+                .build();
+
+        customConfig.displayConfig();
+    }
+}

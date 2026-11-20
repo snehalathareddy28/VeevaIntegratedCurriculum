@@ -1,0 +1,63 @@
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+
+public class ConfigurationManager {
+
+    private final Properties properties;
+
+    // Private constructor
+    private ConfigurationManager() {
+
+        properties = new Properties();
+
+        try (InputStream input =
+                     getClass().getClassLoader()
+                             .getResourceAsStream("config.properties")) {
+
+            if (input == null) {
+                throw new IllegalStateException(
+                        "config.properties file not found");
+            }
+
+            properties.load(input);
+
+        } catch (IOException e) {
+            throw new RuntimeException(
+                    "Unable to load configuration", e);
+        }
+    }
+
+    // Thread-safe Singleton instance using initialization-on-demand holder
+    private static class Holder {
+        private static final ConfigurationManager INSTANCE =
+                new ConfigurationManager();
+    }
+
+    public static ConfigurationManager getInstance() {
+        return Holder.INSTANCE;
+    }
+
+    public String getProperty(String key) {
+        return properties.getProperty(key);
+    }
+
+    public String getBrowser() {
+        return properties.getProperty("browser");
+    }
+
+    public String getUrl() {
+        return properties.getProperty("url");
+    }
+
+    public int getTimeout() {
+        return Integer.parseInt(
+                properties.getProperty("timeout"));
+    }
+
+    public boolean isHeadless() {
+        return Boolean.parseBoolean(
+                properties.getProperty("headless"));
+    }
+}
